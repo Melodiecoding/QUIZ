@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+html {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+/* HEADER */
+nav {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > h1 {
+    font-size: x-large;
+}
+
+.logo {
+    width: 60px;
+}
+
+.login {
+    width: 70px;
+    height: 40px;
+    text-align: center;
+}
+
+/* Introduction */
+.intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+h2 {
+    padding: 20px;
+    font-size: xx-large;
+}
+
+.saisie_name {
+    margin: 15px;
+    border: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+#barre-saisie {
+    border: none;
+    border-radius: 3px;
+    margin: 0;
+}
+
+#name_valid {
+    border: none;
+    border-radius: 3px;
+    margin: 0;
+    background-color: beige;
+    color:#000;
+    border:#000 1px solid;
+}
+
+.message {
+    font-size: x-large;
+}
+
+
+/* QUESTIONS */
+#question_answer {
+    width: 650px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff59;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.question_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question {
+    font-weight: bold;
+}
+
+.answers {
+    list-style: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.boutons {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.next_Btn {
+    background-color: #000;
+    color: white;
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.validation_Btn {
+    background-color: #000;
+    color: white;
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+/* FOOTER */
+footer > h1 {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+
+
+@media screen and (max-width: 685px){
+    body {
+      font-size: smaller;
+    }    
+
+}

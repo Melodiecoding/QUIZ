@@ -1,0 +1,181 @@
+{
+
+    "qcm": [
+        {
+            "question": "Que signifie HTML ?",
+            "answers": [
+                "HyperText Markup Language", "HomeTabulation of Mailing List", "Hyperspace TradeMark Language", "Home Tool Markup Language"
+            ],
+            "goodAnswer": 0,
+            "infoComplem": "HTML signifie « HyperText Markup Language » qu'on peut traduire par « langage de balises pour l'hypertexte »."
+        }, {
+            "question": "Quel attribut permet d'indiquer la destination d'un lien en HTML ?",
+            "answers": [
+                "class", "link", "a", "href"
+            ],
+            "goodAnswer": 3,
+            "infoComplem": "Avec sa balise <a>, href crée un lien hypertexte vers des pages web, des fichiers, des adresses e-mail, des emplacements se trouvant dans la même page, ou tout ce qu'une URL peut adresser."
+        }, {
+            "question": "Laquelle de ces balises permet de définir une cellule d'en-tête d'un tableau en HTML ?",
+            "answers": [
+                "<th>", "<td>", "<tr>", "<thead>"
+            ],
+            "goodAnswer": 0,
+            "infoComplem": "L'élément HTML <th> définit une cellule d'un tableau comme une cellule d'en-tête pour un groupe de cellule."
+        }, {
+            "question": "Quelle balise utilise-t-on pour définir le titre principal d'une page web ?",
+            "answers": [
+                "<head>", "<h6>", "<header>", "<h1>"
+            ],
+            "goodAnswer": 3,
+            "infoComplem": "Les éléments <h1> à <h6> représentent six niveaux de titres dans un document, <h1> est le plus important."
+        }, {
+            "question": "Quelle balise utilise-t-on pour créer une liste numérotée ?",
+            "answers": [
+                "<list>", "<li>", "<ol>", "<ul>"
+            ],
+            "goodAnswer": 2,
+            "infoComplem": "L'élément HTML <ol> représente une liste ordonnée. Les éléments d'une telle liste sont généralement affichés avec un indicateur ordinal pouvant prendre la forme de nombres, de lettres, de chiffres romains ou de points."
+        }, {
+            "question": "Comment écrit-on un commentaire en HTML ?",
+            "answers": [
+                "<commentaire>Commentaire</commentaire>", "<!-- Commentaire -->", "<! Commentaire >", "<! Commentaire />"
+            ],
+            "goodAnswer": 1,
+            "infoComplem": "Il existe un raccourci clavier : maj+Ctrl+:"
+        }, {
+            "question": "Quelle balise faut-il utiliser pour créer une liste déroulante ?",
+            "answers": [
+                "<input type='list'>", "<input type='dropdown'>", "<list>", "<select>"
+            ],
+            "goodAnswer": 3,
+            "infoComplem": "L'élément HTML <select> représente un contrôle qui fournit une liste d'options parmi lesquelles l'utilisateur pourra choisir."
+        }, {
+            "question": "Qui considère-t-on comme l'inventeur du HTML ?",
+            "answers": [
+                "Tim Berners-Lee", "Linus Torvalds", "Richard Stallman", "Bill Gates"
+            ],
+            "goodAnswer": 0,
+            "infoComplem": "Timothy John Berners-Lee, né le 8 juin 1955 à Londres, est un informaticien britannique, principal inventeur du World Wide Web (WWW, le Web) alors qu'il travaillait au CERN au tournant des années 1990. Depuis 1994, il préside le World Wide Web Consortium (W3C), organisme qu'il a fondé."
+        }, {
+            "question": "À quoi sert le langage CSS ?",
+            "answers": [
+                "À réaliser des pages dynamiques", "À simuler une application en mode avion durant les trajets dans un bus", "À insérer du contenu dans une page internet", "À ajouter du style aux documents web"
+            ],
+            "goodAnswer": 3,
+            "infoComplem": "Le CSS est utilisé pour mettre en forme une page web."
+        }, {
+            "question": "Quel élément sépare la propriété de sa valeur en CSS ?",
+            "answers": [
+                "Le signe deux points (:)", "Le signe égal (=)", "Le signe point-virgule (;)", "Le signe espace ( )"
+            ],
+            "goodAnswer": 0,
+            "infoComplem": "La propriété et la valeur de chaque paire sont séparées par deux points (:)."
+        }, {
+            "question": "Que veux dire l'abréviation CSS ?",
+            "answers": [
+                "Colorful Style Sheets", "Computer Style Sheets", "Creative Style Sheets", "Cascading Style Sheets"
+            ],
+            "goodAnswer": 3,
+            "infoComplem": "Les Cascading Style Sheets (Feuilles de style en cascade) sont la première technique à apprendre après le HTML."
+        }, {
+            "question": "Lequel de ces sélecteurs permet de cibler l'élément HTML avec l'attribut id='titi' ?",
+            "answers": [
+                "#titi {}", "*titi {}", ".titi {}", "titi {}"
+            ],
+            "goodAnswer": 0,
+            "infoComplem": "On utilise # pour cibler chaque id du HTML."
+        }, {
+            "question": "Quelle propriété CSS permet de modifier la taille de la police d'un élément HTML ?",
+            "answers": [
+                "text-size:", "font-style:", "text-style:", "font-size:"
+            ],
+            "goodAnswer": 3,
+            "infoComplem": "La propriété font-size définit la taille de fonte utilisée pour le texte."
+        }, {
+            "question": "Quelle valeur de la propriété display:  permet de faire disparaître un élément ?",
+            "answers": [
+                "hidden", "invisible", "no", "none"
+            ],
+            "goodAnswer": 3,
+            "infoComplem": "La propriété display définit le type d'affichage utilisé pour le rendu d'un élément (de bloc ou en ligne) et la disposition utilisée pour ses éléments fils : grille ou boîtes flexibles. La valeur none va non seulement masquer l’élément en question mais va en plus permettre aux autres éléments d’occuper l’espace de l’élément caché."
+        }, {
+            "question": "Quelle est la syntaxe qui permet de relier une feuille de style à une page HTML ?",
+            "answers": [
+                "<link rel='stylesheet' type='text/css' href='style.css' />", "<stylesheet/>style.css</stylesheet/>", "<style src='style.css'/></style/>", "<meta rel='stylesheet' type='text/css' href='style.css' />"
+            ],
+            "goodAnswer": 0,
+            "infoComplem": "Pour lier styles.css à index.html ajoutez la ligne suivante dans la section <head> du document HTML : <link rel='stylesheet' href='styles.css'>"
+        }, {
+            "question": "Combien de règles peut contenir un fichier CSS ?",
+            "answers": [
+                "Si le poids du fichier n'excède pas 20Ko, c'est tout bon", "Il n'y a pas de limite, on peut en créer autant que l'on veut", "150 à plus ou moins 10%", "Cela dépend des navigateurs"
+            ],
+            "goodAnswer": 1,
+            "infoComplem": "Un fichier CSS n'est limité ni par son poids, ni par le nombre de ses règles. Vous pouvez donc coder de gros fichiers."
+        }, {
+            "question": "Lequel de ces types d'événements n'existe pas en Javascript ?",
+            "answers": [
+                "blur", "load", "mouseout", "mouseclick"
+            ],
+            "goodAnswer": 3,
+            "infoComplem": "Il faut utiliser click, qui a d'ailleurs l'avantage de se déclencher aussi avec l'activation par le clavier."
+        }, {
+            "question": "var iNum = 12; iNum %= 2; A la suite de cette expression, combien vaut iNum ?",
+            "answers": [
+                6, 14, 0.12, 0
+            ],
+            "goodAnswer": 3,
+            "infoComplem": "Le modulo suivi de l'affectation divise la variable iNum par 2 puis affecte le reste de la division à iNum, soit zéro."
+        }, {
+            "question": "Laquelle de ces propositions est un nom de variable valide en JavaScript ?",
+            "answers": [
+                "var", "2a", "$b", "NaN"
+            ],
+            "goodAnswer": 2,
+            "infoComplem": "var est un mot-clé ; 2a n'est pas valide car un identifiant ne peut pas commencer par un chiffre ; int est un mot-clé réservé pour les futures versions de la spécification ECMAScript."
+        }, {
+            "question": "Quelle méthode n'existe pas dans le DOM ?",
+            "answers": [
+                "document.getElementsByClassName", "document.getElementsByTagName", "document.getElementsByAttribute", "document.getElementById"
+            ],
+            "goodAnswer": 2,
+            "infoComplem": "On peut rechercher les éléments par classe, id, nom de balise (tag)."
+        }, {
+            "question": "Que signifie l'acronyme DOM ?",
+            "answers": [
+                "Document Objectification Method", "Development Of Methods", "Document Object Model", "Development Of Markup"
+            ],
+            "goodAnswer": 2,
+            "infoComplem": "Le DOM est un modèle de document chargé dans le navigateur."
+        }, {
+            "question": "Quand vous rédigez du JS dans une page Web, quel est le nom de la variable globale qui représente le DOM ?",
+            "answers": [
+                "global", "document", "dom", "doc"
+            ],
+            "goodAnswer": 1,
+            "infoComplem": "C'est la conversion d'une page Web en objet, qui représente toutes les balises à l'intérieur du document par des nœuds dans un arbre, avec leurs attributs comme propriétés."
+        }, {
+            "question": "Quel type de donnée est enregistré dans la variable document  ?",
+            "answers": [
+                "chaîne de caractères", "booléen", "objet", "nombre"
+            ],
+            "goodAnswer": 2,
+            "infoComplem": "Si vous ouvrez une page Web et que vous tapez document dans la console, vous verrez la représentation du DOM de la page Web par le navigateur."
+        }, {
+            "question": "Comment déclare-t-on un tableau en Javascript ?",
+            "answers": [
+                "{} accolades", "[], crochets", "() parenthèses", "Aucune de ces réponses"
+            ],
+            "goodAnswer": 1,
+            "infoComplem": "Les tableaux sont des objets de haut-niveau (en termes de complexité homme-machine) semblables à des listes."
+        }, {
+            "question": "Qu’est-ce qu’un ECMAScript ?",
+            "answers": [
+                "Une variante du JavaScript", "Une convention de l'usage de JavaScript", "Une spécification qui standardise JavaScript", "L'ancêtre de JavaScript"
+            ],
+            "goodAnswer": 2,
+            "infoComplem": "Le langage JavaScript (au sens strict) est standardisé par le comité ECMA TC39 sous la forme d'un langage intitulé ECMAScript."
+        }
+    ]
+}

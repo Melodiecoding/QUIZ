@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="quiz.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+        <title>QUIZ CODE</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <img class="logo" src="balise2.png" alt="logo site">
+                <h1>Full Stack Center</h1>
+                <button class="login">Register<br>Log In</button>
+            </nav>
+        </header>
+
+        <div class="intro">
+            <h2 class="titre">QUIZ</h2>
+            <div class="saisie_name">
+                <input type="text" id="barre-saisie" placeholder="Entrez votre nom" value="">
+                <button type="submit" id="name_valid">OK</button>
+            </div>
+                 <p class="message"></p>
+        </div>
+        <section class="score_section hidden">
+            <div id="score">
+                <h3>Ton Score</h3>
+                <span id="note"></span>
+                <p class="encouragement"></p>
+            </div>
+
+            <div id="best_users">
+                <h3>Top 5
+                <br>Meilleurs scores</h3>
+                <ol>
+                    <li class="first"></li>
+                    <li class="second"></li>
+                    <li class="third"></li>
+                    <li class="fourth"></li>
+                    <li class="fifth"></li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="question_div">
+        <div id="question_answer">
+            <h3 id="numero_question">Question 1</h3>
+            <p id="question"></p>
+
+            <form id="answer-list">
+                <div class="answers">
+                   <input name="answers" type="radio" class="answer1">
+                   <label for="answer0" id="answer1"></label>
+                </div>
+                <div class="anwers">
+                   <input name="answers" type="radio" class="answer2">
+                   <label for="answer1" id="answer2"></label>
+                </div>
+                <div class="anwers">
+                   <input name="answers" type="radio" class="answer3">
+                   <label for="answer2" id="answer3"></label>
+                </div>
+                <div class="anwers">   
+                   <input name="answers" type="radio" class="answer4">
+                   <label for="answer3" id="answer4"></label>
+                </div>
+            </form>
+        </div>
+        </section>
+        <div class="boutons">
+            <button class="next_Btn">Suivant</button>
+            <button class="validation_Btn hidden">Valider</button>
+            <button class="retry hidden">Réessayer</button>
+        </div>
+
+        <footer>
+            <h1>Full Stack Center</h1>
+        </footer>
+        <script src="quiz.js"></script>
+    </body>
+</html>
